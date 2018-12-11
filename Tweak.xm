@@ -1,3 +1,13 @@
+//
+//  Tweak.xm
+//  CustomAlertView
+//
+//  Created by @Y_Dagriri on 12/11/18.
+//  Copyright © 2018 @Y_Dagriri. All rights reserved.
+//
+
+
+/************** This code will unlcok all featres in Path app *****************/
 %hook PTPost
 -(bool) isPremiumStory {
 return true;
@@ -32,7 +42,7 @@ arg = true;
 %end
 
 
-//FBSDKApplicationDelegate
+/********************** Alert **********************/
 
 %hook FBSDKApplicationDelegate
 
