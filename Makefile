@@ -1,5 +1,4 @@
 ARCHS = armv7 arm64
-TARGET = iphone:clang:latest:latest
 CFLAGS = -w
 THEOS_PACKAGE_DIR_NAME = debs
 include $(THEOS)/makefiles/common.mk
